@@ -32,11 +32,16 @@ p {
     display: flex;
     flex-direction: row;
     margin: 1em auto;
+    align-items: center;
+}
+
+.current {
+    font-weight: bold;
 }
 
 .navButton {
     display: flex;
-    align-content: center;
+    align-items: flex-end;
     margin-left: 5em;
 }
 
@@ -61,7 +66,7 @@ header {
 }
 
 .title {
-    margin: 2em;
+    margin: 1.5em;
     text-align: center;
     color: white;
 }
@@ -82,7 +87,7 @@ header {
 .orangeButton {
     background-color: rgb(255, 115, 0);
     border-radius: 50px;
-    padding: 0.5em;
+    padding: 0.8em;
 }
 
 .orangeButton:hover {
@@ -144,7 +149,7 @@ header {
 
 .navFooter {
     padding-bottom: 0.8em;
-    border-bottom: solid 2px rgb(38, 37, 49);
+    border-bottom: solid 1px rgb(38, 37, 49);
     font-size: 20px;
 }
 
