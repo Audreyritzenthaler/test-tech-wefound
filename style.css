@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ulNav {
+    display: flex;
+    flex-direction: row;
+}
+
+.ulNav>li {
+    list-style-type: none;
+    margin: 0 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 1em auto;
+}
+
+.navButton {
+    display: flex;
+    align-content: center;
+    margin-left: 5em;
+}
+
+.logoCorpoNav {
+    margin-right: 4em;
+}
+
+.logoNav {
+    width: 20px;
+    margin: 0 8px;
+    background-color: rgba(58, 58, 58, 0.541);
+    padding: 8px 13px;
+    border-radius: 18px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54, 131, 161);
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    margin: 2em;
+    text-align: center;
+    color: white;
+}
+
+.blackTitle {
+    color: rgb(14, 14, 14);
+    margin-bottom: 3em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.question {
+    background-color:  rgb(54, 131, 161);
+    padding: 3em;
+    text-align: center;
+}
+
+.orangeButton {
+    background-color: rgb(255, 115, 0);
+    border-radius: 50px;
+    padding: 0.5em;
+}
+
+.orangeButton:hover {
+    background-color: white;
+    color: rgb(255, 136, 0);
+}
+
+.questionText {
+    margin: 2em auto 4em auto;
+    text-align: center;
+}
+
+.product {
+    margin: auto;
+    text-align: center;
+}
+
+.wrapButton {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 280px;
+}
+
+.product {
+    padding: 1em;
+    border-radius: 15px;
+    margin: 1em;
+    transition: transform .2s;
+}
+
+.green {
+    background-color: rgb(127, 207, 141);
+}
+
+.orange:hover, .green:hover {
+    transform: scale(1.1);
+}
+
+.orange {
+    background-color: tomato;
+}
+
+.foot {
+    background-color: rgb(1, 86, 107);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.whatIs {
+    width: 30%;
+    margin: 1em;
+}
+
+.navigationFooter {
+    margin: 1em auto;
+}
+
+.navFooter {
+    padding-bottom: 0.8em;
+    border-bottom: solid 2px rgb(38, 37, 49);
+    font-size: 20px;
+}
+
+.ulFoot>li {
+    margin: 0.5em 0;
+    font-size: 12px;
+}
+
+li>a:hover {
+    text-decoration: underline;
+}
+
+.logoFoot {
+    margin: auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+div>p, div>h3 {
+    margin: 1em 0;
+    color: white;
+}
+
+.endFoot {
+    background-color: rgb(1, 64, 80);
+    color: white;
+}
+
+.ecart {
+    margin-left: 5em;
+}
